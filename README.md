@@ -1,3 +1,7 @@
+FORKED from theothernt/AerialDream BUT reverted before the Kotlin conversion
+PLANNING TO:
+readd old video repos, allowing to disable them
+
 # AerialDream
 
 [![API](https://img.shields.io/badge/API-23%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=23)
