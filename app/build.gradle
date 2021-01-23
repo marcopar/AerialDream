@@ -63,7 +63,7 @@ dependencies {
 task fetchPlaylistTask (type: Exec) {
     // Fetch playlist files
     if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
-        commandLine 'cmd', '/c', 'powershell', '-Command', '../fetch_playlists.ps1'
+        commandLine 'cmd', '/c', '..\\fetch_playlists.bat'
     } else {
         commandLine 'sh', '-c', '../fetch_playlists.sh'
     }
